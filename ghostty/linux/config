@@ -1,0 +1,18 @@
+theme = ayu
+
+font-size = 14
+window-save-state = always
+confirm-close-surface = false
+
+keybind=ctrl+h=goto_split:left
+keybind=ctrl+l=goto_split:right
+keybind=ctrl+k=goto_split:top
+keybind=ctrl+j=goto_split:bottom
+
+keybind = alt+ctrl+h=resize_split:left,20
+keybind = alt+ctrl+l=resize_split:right,20
+keybind = alt+ctrl+k=resize_split:up,20
+keybind = alt+ctrl+j=resize_split:down,20
+keybind = alt+d=new_split:right
+keybind = shift+alt+d=new_split:down
+keybind = alt+w=close_surface
